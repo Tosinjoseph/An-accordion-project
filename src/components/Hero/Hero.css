@@ -1,0 +1,92 @@
+.h-wrapper{
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Fredoka", sans-serif;
+}
+.h-wrapper img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+}
+.head img{
+    width: 40px;
+}
+.head h1{
+    font-size: 40px;
+}
+.head{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 15px;
+}
+.h-container{
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    justify-content: flex-start;
+    z-index: 100;
+    background: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 180px;
+    box-shadow: -5px 13px 46px -7px rgba(0,0,0,0.12);
+
+
+}
+.accordionButton{
+display: flex;
+gap: 200px;
+flex-direction: column;
+height: 100%;
+border: none;
+outline: none;
+
+}
+.side{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    
+    
+}
+.side .text{
+    margin-left: 20px;
+    margin-top: 22px;
+    font-weight: 600;
+}
+.side .text-img{
+    margin-top: 22px;
+    margin-right: 20px;
+}
+.accordion{
+    border: none !important;
+}
+.accordionPanel{
+    font-family: 'Fredoka', sans-serif;
+    justify-content: flex-start;
+    text-align: left;
+    width: 95%;
+    margin-left: 20px;
+    color: #A3A3A3;
+    border: none;
+}
+.accordionItem{
+    border: none!important;
+}
+
+
+@media (max-width: 600px){
+    .h-container{
+        width: 100%;
+        margin: auto;
+    }
+}
